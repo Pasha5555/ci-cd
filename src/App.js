@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         {counter}
-        <button onClick={inrement}>Increment</button>
+        <button style={{background: "black"}} onClick={inrement}>Increment</button>
       </header>
     </div>
   );
